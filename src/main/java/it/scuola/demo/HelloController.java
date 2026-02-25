@@ -21,4 +21,10 @@ public class  HelloController {
                 "ok", true
         );
     }
+    @GetMapping("/api/prova")
+    public Map<String, Object> ciao() {
+        return Map.of(
+            "Questa è una prova",true
+        );
+    }
 }
