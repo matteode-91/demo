@@ -16,6 +16,6 @@ public class Controller {    //Classe Controller
 
    @GetMapping("/richiamo/funzione")
    public Map<String, Object> ciao() {
-   return hello();
+   return hello(); //richiama la funzione hello e restituisce il testo
    }
 }
